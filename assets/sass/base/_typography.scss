@@ -1,0 +1,86 @@
+.heading-1 {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: $TITLE-FONT;
+  line-height: 64px;
+}
+
+.heading-2 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  font-family: $TITLE-FONT;
+}
+
+.heading-3 {
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.heading-4 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: $TITLE-FONT;
+}
+.heading-5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: $color-primary;
+}
+
+.bold-l {
+  font-size: 1.6rem;
+  line-height: 0.6rem;
+  font-weight: 700;
+}
+
+.bold-m {
+  font-size: 1.4rem;
+  line-height: 0.4rem;
+  font-weight: 700;
+}
+
+.bold-s {
+  font-size: 1.1rem;
+  line-height: 0.4rem;
+  font-weight: 700;
+}
+
+.p-default {
+  font-size: 2rem;
+  line-height: 0.8rem;
+  font-weight: 400;
+}
+
+.regular-l {
+  font-size: 1.6rem;
+  line-height: 0.6rem;
+  font-weight: 400;
+}
+
+.regular-m {
+  font-size: 1.4rem;
+  line-height: 0.4rem;
+  font-weight: 400;
+}
+
+.regular-s {
+  font-size: 1.1rem;
+  line-height: 0.4rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .heading-1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  .heading-2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+@media (min-width: 992px) {
+  .heading-1 {
+    font-size: 72px;
+  }
+}

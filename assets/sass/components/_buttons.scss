@@ -1,0 +1,34 @@
+.btn {
+  // Default
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 16px;
+  text-align: center;
+  max-width: 170px;
+  font-family: $TITLE-FONT;
+  line-height: 18px;
+}
+.btn-primary {
+  background: $color-secondary;
+  color: white;
+}
+.btn-primary:hover {
+  background: $color-primary;
+  color: white;
+  transition: 0.2s all ease;
+}
+.btn-outline {
+  border: 1px solid rgba(93, 196, 184, 0.500198);
+  color: $color-font-secondary;
+  background: none;
+}
+.btn-outline:hover {
+  background: rgba(93, 196, 184, 0.500198);
+  color: white !important;
+  transition: 0.2s all ease;
+}
+a.link:hover {
+  color: $color-font-secondary !important;
+  transition: 0.2s all ease;
+}

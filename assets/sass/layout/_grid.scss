@@ -1,0 +1,170 @@
+section {
+  padding: 50px 0;
+  height: auto;
+}
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-container {
+  max-width: 375px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 15px;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 16px;
+  padding: 0 15px;
+}
+.col {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.col-1 {
+  flex: 1;
+  gap: 16px;
+  // flex-basis: calc(1 / 12 * 100%);
+  // padding: 0 8px;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-4 {
+  flex: 4;
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+  flex: 7;
+}
+
+.col-8 {
+  flex: 8;
+}
+
+.col-9 {
+  flex: 9;
+}
+
+.col-10 {
+  flex: 10;
+}
+
+.col-11 {
+  flex: 11;
+}
+
+/******MEDIA QUERIES*****/
+@media (min-width: 568px) {
+  .col-sm-3 {
+    width: calc(100% / 12 * 3);
+  }
+  .col-sm-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-sm-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-sm-8 {
+    width: calc(100% / 12 * 8);
+  }
+  .col-sm-10 {
+    width: calc(100% / 12 * 10);
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .nav-container {
+    max-width: 1170px;
+  }
+  .col-md-3 {
+    width: calc(100% / 12 * 3);
+  }
+  .col-md-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-md-5 {
+    width: calc(100% / 12 * 5);
+  }
+  .col-md-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-md-8 {
+    width: calc(100% / 12 * 8);
+  }
+  .col-md-9 {
+    width: calc(100% / 12 * 9);
+  }
+  .order-md-1 {
+    order: 1;
+  }
+  .order-md-2 {
+    order: 2;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-2 {
+    width: calc(100% / 12 * 2);
+  }
+  .col-lg-3 {
+    width: calc(100% / 12 * 3);
+  }
+  .col-lg-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-lg-5 {
+    width: calc(100% / 12 * 5);
+  }
+  .col-lg-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-lg-9 {
+    width: calc(100% / 12 * 9);
+  }
+  .col-lg-10 {
+    width: calc(100% / 12 * 10);
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-xl-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-xl-8 {
+    width: calc(100% / 12 * 8);
+  }
+  .col-xl-9 {
+    width: calc(100% / 12 * 9);
+  }
+  .row {
+    padding: 0;
+  }
+  .nav-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

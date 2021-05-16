@@ -1,0 +1,49 @@
+#header {
+  padding: 10px 0;
+  width: 100%;
+  position: static;
+  h1.title-logo {
+    color: $color-secondary;
+    font-family: $TITLE-FONT;
+    font-size: 40px;
+    font-weight: 900;
+    max-width: 116px;
+    margin-right: 60px;
+  }
+  i {
+    color: $color-font-secondary;
+    font-size: 20px;
+    border: 1px solid $color-font-secondary;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  @media (min-width: 992px) {
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      & li {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        & a {
+          margin-right: 14px;
+          font-size: 1rem;
+          font-family: $HEAD-FONT;
+          font-weight: 400;
+          color: $color-black;
+        }
+        & a:hover {
+          color: $color-font-secondary;
+        }
+      }
+    }
+    a.btn {
+      display: block;
+    }
+    i {
+      display: none;
+    }
+  }
+}

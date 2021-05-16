@@ -1,0 +1,90 @@
+.d-flex {
+  display: flex;
+}
+.d-center {
+  justify-content: center;
+  align-items: center;
+}
+.d-hidden {
+  display: none;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.col-wrap {
+  flex-flow: column;
+}
+.ml-2 {
+  margin-left: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.mb-64 {
+  margin-bottom: 64px !important;
+}
+.mb-44 {
+  margin-bottom: 44px !important;
+}
+.mb-26 {
+  margin-bottom: 26px;
+}
+// .flex-box {
+//   display: flex;
+// }
+// .flex-box__item:nth-child(even) {
+//   background: #ddd;
+//   flex: 1 2 100px;
+//   justify-content: center;
+// }
+// .flex-box__item:nth-child(odd) {
+//   background: #999;
+//   flex: 1 1 100px;
+//   justify-content: center;
+// }
+
+.bg-image {
+  background-image: url(https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.border-outline-circle a,
+.border-solid-circle a {
+  margin-left: 0;
+}
+
+.border-solid-circle {
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #252525;
+  background-color: #a89999;
+}
+
+.border-outline-circle {
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #252525;
+}
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
