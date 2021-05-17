@@ -352,10 +352,6 @@
   background-size: 99% 100%;
   background-position: right;
   h2 {
-    line-height: 64px;
-    margin-bottom: 10px;
-    font-family: $TITLE-FONT;
-    font-size: 56px;
     margin-bottom: 22px;
   }
   h6 {
@@ -535,6 +531,12 @@
   p {
     width: 470px;
   }
+  .col-lg-4:last-child,
+  .col-lg-4:nth-last-child(2) {
+    .art-col {
+      display: none;
+    }
+  }
   .art-col {
     border-radius: 50px 24px 24px 24px;
     position: relative;
@@ -593,8 +595,8 @@
   }
   @media (min-width: 768px) {
     .col-lg-4:nth-last-child(2) {
-      .person-col {
-        display: block;
+      .art-col {
+        display: flex;
       }
     }
 
@@ -604,8 +606,8 @@
   }
   @media (min-width: 992px) {
     .col-lg-4:last-child {
-      .person-col {
-        display: block;
+      .art-col {
+        display: flex;
       }
     }
     .art-caro:last-child {
@@ -614,16 +616,37 @@
   }
 }
 #map {
+  background: url(../img/bg-right.png);
+  background-repeat: no-repeat;
+  background-size: 99% 100%;
+  background-position: right;
+  .col {
+    position: relative;
+  }
+  h2 {
+    margin-bottom: 22px;
+  }
+  p {
+    margin-bottom: 32px;
+    max-width: 370px;
+  }
+  p.work {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+  }
   .img-map {
     border-radius: 100px 24px 24px 24px;
-    background-image: url("https://api.mapbox.com/styles/v1/unsiga25/ckor0gczt3du817p6q8gb6hf5/static/url-https%3A%2F%2Fi.imgur.com%2F3sxqYn5.png(
-          -73.7638,
-          42.6564
-        )/-73.7638,
-      42.6564,
-      13,
-      0/600x300@2x?access_token=pk.eyJ1IjoidW5zaWdhMjUiLCJhIjoiY2tvcjBkanVxMTAxMDJzcGN3N3pkeTdkdiJ9.YkXJv6TNKV4L_Ebc163L1g
-    ");
+  }
+  @media (min-width: 768px) {
+    .img-map {
+      transform: scale(1, 0.8);
+    }
+  }
+  @media (min-width: 992px) {
+    .img-map {
+      transform: scale(1.2);
+    }
   }
 }
 /*****BACKGROUND MEDIA QUERIES*****/

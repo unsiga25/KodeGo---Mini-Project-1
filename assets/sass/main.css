@@ -566,6 +566,9 @@ section {
         -ms-flex-order: 2;
             order: 2;
   }
+  .pl-md-30 {
+    padding-left: 30px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -589,6 +592,9 @@ section {
   }
   .col-lg-10 {
     width: calc(100% / 12 * 10);
+  }
+  .pl-md-30 {
+    padding-left: 15px;
   }
 }
 
@@ -1138,10 +1144,6 @@ section {
 }
 
 #gallery h2 {
-  line-height: 64px;
-  margin-bottom: 10px;
-  font-family: "Elsie", cursive;
-  font-size: 56px;
   margin-bottom: 22px;
 }
 
@@ -1347,6 +1349,11 @@ section {
   width: 470px;
 }
 
+#articles .col-lg-4:last-child .art-col,
+#articles .col-lg-4:nth-last-child(2) .art-col {
+  display: none;
+}
+
 #articles .art-col {
   border-radius: 50px 24px 24px 24px;
   position: relative;
@@ -1417,8 +1424,10 @@ section {
 }
 
 @media (min-width: 768px) {
-  #articles .col-lg-4:nth-last-child(2) .person-col {
-    display: block;
+  #articles .col-lg-4:nth-last-child(2) .art-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   #articles .art-caro:nth-last-child(2) {
     display: none;
@@ -1426,17 +1435,58 @@ section {
 }
 
 @media (min-width: 992px) {
-  #articles .col-lg-4:last-child .person-col {
-    display: block;
+  #articles .col-lg-4:last-child .art-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   #articles .art-caro:last-child {
     display: none;
   }
 }
 
+#map {
+  background: url(../img/bg-right.png);
+  background-repeat: no-repeat;
+  background-size: 99% 100%;
+  background-position: right;
+}
+
+#map .col {
+  position: relative;
+}
+
+#map h2 {
+  margin-bottom: 22px;
+}
+
+#map p {
+  margin-bottom: 32px;
+  max-width: 370px;
+}
+
+#map p.work {
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
 #map .img-map {
   border-radius: 100px 24px 24px 24px;
-  background-image: url("https://api.mapbox.com/styles/v1/unsiga25/ckor0gczt3du817p6q8gb6hf5/static/url-https%3A%2F%2Fi.imgur.com%2F3sxqYn5.png(\a           -73.7638,\a           42.6564\a         )/-73.7638,\a       42.6564,\a       13,\a       0/600x300@2x?access_token=pk.eyJ1IjoidW5zaWdhMjUiLCJhIjoiY2tvcjBkanVxMTAxMDJzcGN3N3pkeTdkdiJ9.YkXJv6TNKV4L_Ebc163L1g\a     ");
+}
+
+@media (min-width: 768px) {
+  #map .img-map {
+    -webkit-transform: scale(1, 0.8);
+            transform: scale(1, 0.8);
+  }
+}
+
+@media (min-width: 992px) {
+  #map .img-map {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 /*****BACKGROUND MEDIA QUERIES*****/

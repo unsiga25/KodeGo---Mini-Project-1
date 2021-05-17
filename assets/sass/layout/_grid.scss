@@ -123,6 +123,9 @@ section {
   .order-md-2 {
     order: 2;
   }
+  .pl-md-30 {
+    padding-left: 30px;
+  }
 }
 @media (min-width: 992px) {
   .col-lg-2 {
@@ -145,6 +148,9 @@ section {
   }
   .col-lg-10 {
     width: calc(100% / 12 * 10);
+  }
+  .pl-md-30 {
+    padding-left: 15px;
   }
 }
 @media (min-width: 1200px) {
