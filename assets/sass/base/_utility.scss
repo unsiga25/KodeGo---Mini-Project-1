@@ -11,6 +11,12 @@
 .justify-center {
   justify-content: center;
 }
+.justify-end {
+  justify-content: flex-end;
+}
+.align-start {
+  align-items: flex-start;
+}
 .align-center {
   align-items: center;
 }
@@ -43,6 +49,9 @@
 }
 .mb-26 {
   margin-bottom: 26px;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 // .flex-box {
 //   display: flex;

@@ -136,6 +136,7 @@ table {
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -628,13 +629,13 @@ section {
   }
 }
 
-#header {
+#navbar {
   padding: 10px 0;
   width: 100%;
   position: static;
 }
 
-#header h1.title-logo {
+#navbar h1.title-logo {
   color: linear-gradient(180deg, #96e4dd 0%, #5dc4b8 100%);
   font-family: "Elsie", cursive;
   font-size: 40px;
@@ -643,7 +644,7 @@ section {
   margin-right: 60px;
 }
 
-#header i {
+#navbar i {
   color: #5dc4b8;
   font-size: 20px;
   border: 1px solid #5dc4b8;
@@ -652,7 +653,7 @@ section {
 }
 
 @media (min-width: 992px) {
-  #header .nav-menu {
+  #navbar .nav-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -660,7 +661,7 @@ section {
         -ms-flex-align: center;
             align-items: center;
   }
-  #header .nav-menu li {
+  #navbar .nav-menu li {
     margin-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -673,20 +674,20 @@ section {
             align-items: center;
     text-align: center;
   }
-  #header .nav-menu li a {
+  #navbar .nav-menu li a {
     margin-right: 14px;
     font-size: 1rem;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #333;
   }
-  #header .nav-menu li a:hover {
+  #navbar .nav-menu li a:hover {
     color: #5dc4b8;
   }
-  #header a.btn {
+  #navbar a.btn {
     display: block;
   }
-  #header i {
+  #navbar i {
     display: none;
   }
 }

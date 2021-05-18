@@ -510,6 +510,8 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
   }
   .btn {
     margin-right: 8px;
@@ -637,6 +639,7 @@
   }
   .img-map {
     border-radius: 100px 24px 24px 24px;
+    object-fit: cover;
   }
   @media (min-width: 768px) {
     .img-map {
@@ -694,7 +697,7 @@
     height: 600px;
   }
   #articles {
-    padding-top: 290px;
+    padding-top: 200px;
   }
 }
 @media (min-width: 992px) {
