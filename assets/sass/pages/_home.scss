@@ -534,22 +534,20 @@
   p {
     width: 470px;
   }
-  .col-lg-4:last-child,
-  .col-lg-4:nth-last-child(2) {
-    .art-col {
-      display: none;
-    }
+  .art-box {
+    height: 530px;
   }
   .art-col {
     border-radius: 50px 24px 24px 24px;
     position: relative;
     box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
-    padding: 230px 30px 48px;
-    max-width: 254px;
-    margin: 0 auto;
+    padding: 265px 30px 48px;
+    min-width: 200px;
+    width: 254px;
+    margin: 50px 30px;
     cursor: pointer;
     background: white;
-    height: 370px;
+    height: 400px;
     .img {
       width: 254px;
       height: 272px;
