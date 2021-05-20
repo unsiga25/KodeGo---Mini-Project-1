@@ -191,7 +191,7 @@
     margin-bottom: 12px;
   }
   p {
-    width: 470px;
+    max-width: 470px;
   }
   .fav-col {
     border-radius: 50px 24px 24px 24px;
@@ -402,11 +402,9 @@
   p {
     max-width: 470px;
   }
-  .col-lg-4:last-child,
-  .col-lg-4:nth-last-child(2) {
-    .person-col {
-      display: none;
-    }
+  .person-box {
+    height: 450px;
+    padding: 15px;
   }
   .person-col {
     background: #ffffff;
@@ -414,7 +412,9 @@
     border-radius: 100px 24px 24px 24px;
     position: relative;
     padding: 70px 32px 30px;
-    height: 100%;
+    width: 270px;
+    height: 80%;
+    margin: 20px 15px;
   }
   img.colon-img {
     position: absolute;
@@ -544,7 +544,7 @@
     padding: 265px 30px 48px;
     min-width: 200px;
     width: 254px;
-    margin: 50px 30px;
+    margin: 50px 20px;
     cursor: pointer;
     background: white;
     height: 400px;

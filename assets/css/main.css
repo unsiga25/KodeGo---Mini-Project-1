@@ -1086,7 +1086,7 @@ section {
 }
 
 #favorite p {
-  width: 470px;
+  max-width: 470px;
 }
 
 #favorite .fav-col {
@@ -1328,9 +1328,9 @@ section {
   max-width: 470px;
 }
 
-#testimonials .col-lg-4:last-child .person-col,
-#testimonials .col-lg-4:nth-last-child(2) .person-col {
-  display: none;
+#testimonials .person-box {
+  height: 450px;
+  padding: 15px;
 }
 
 #testimonials .person-col {
@@ -1340,7 +1340,9 @@ section {
   border-radius: 100px 24px 24px 24px;
   position: relative;
   padding: 70px 32px 30px;
-  height: 100%;
+  width: 270px;
+  height: 80%;
+  margin: 20px 15px;
 }
 
 #testimonials img.colon-img {
@@ -1491,7 +1493,7 @@ section {
   padding: 265px 30px 48px;
   min-width: 200px;
   width: 254px;
-  margin: 50px 30px;
+  margin: 50px 20px;
   cursor: pointer;
   background: white;
   height: 400px;

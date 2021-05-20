@@ -5,8 +5,8 @@ window.onscroll = () => {
   else navbar.className = "navbar--scroll";
 };
 
-var elem = document.querySelector(".carousel");
-var flkty = new Flickity(elem, {
+var Testelem = document.querySelector(".carousel");
+var Testflkty = new Flickity(Testelem, {
   // options
   cellAlign: "center",
   contain: true,
@@ -15,6 +15,10 @@ var flkty = new Flickity(elem, {
 
 // element argument can be a selector string
 //   for an individual element
-var flkty = new Flickity(".carousel", {
+var Artelem = document.querySelector(".carousel");
+var Artflkty = new Flickity(Artelem, {
   // options
+  cellAlign: "center",
+  contain: true,
+  adaptiveHeight: true,
 });
