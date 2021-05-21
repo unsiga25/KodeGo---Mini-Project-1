@@ -5,18 +5,22 @@ window.onscroll = () => {
   else navbar.className = "navbar--scroll";
 };
 
-var Testelem = document.querySelector(".carousel");
-var Testflkty = new Flickity(Testelem, {
+var Favelem = document.querySelector(".fav-carousel");
+var Favflkty = new Flickity(Favelem, {
   // options
   cellAlign: "center",
   contain: true,
   adaptiveHeight: true,
 });
-
-// element argument can be a selector string
-//   for an individual element
-var Artelem = document.querySelector(".carousel");
+var Artelem = document.querySelector(".test-carousel");
 var Artflkty = new Flickity(Artelem, {
+  // options
+  cellAlign: "center",
+  contain: true,
+  adaptiveHeight: true,
+});
+var Testelem = document.querySelector(".art-carousel");
+var Testflkty = new Flickity(Testelem, {
   // options
   cellAlign: "center",
   contain: true,
