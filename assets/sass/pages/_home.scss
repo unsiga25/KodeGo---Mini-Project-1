@@ -112,6 +112,7 @@
     }
     .heading-4 {
       margin-bottom: 16px;
+      font-size: 20px;
       position: relative;
     }
     .feature-div {
@@ -134,6 +135,9 @@
     }
   }
   @media (min-width: 768px) {
+    .heading-4 {
+      font-size: 24px;
+    }
     .col-md-4:nth-child(2) {
       margin-top: 50px;
     }

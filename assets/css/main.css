@@ -746,7 +746,7 @@ section {
 #footer h1 {
   color: linear-gradient(180deg, #96e4dd 0%, #5dc4b8 100%);
   font-family: "Elsie", cursive;
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 900;
   max-width: 116px;
   margin-bottom: 20px;
@@ -832,6 +832,9 @@ section {
 }
 
 @media (min-width: 768px) {
+  #footer h1 {
+    font-size: 40px;
+  }
   #footer .col {
     margin-bottom: 0;
   }
@@ -995,6 +998,7 @@ section {
 
 #features .feature-col .heading-4 {
   margin-bottom: 16px;
+  font-size: 20px;
   position: relative;
 }
 
@@ -1019,6 +1023,9 @@ section {
 }
 
 @media (min-width: 768px) {
+  #features .heading-4 {
+    font-size: 24px;
+  }
   #features .col-md-4:nth-child(2) {
     margin-top: 50px;
   }
