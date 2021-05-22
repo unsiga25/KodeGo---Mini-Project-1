@@ -686,10 +686,10 @@ section {
   position: static;
 }
 
-#navbar h1.title-logo {
+#navbar .title-logo {
   color: linear-gradient(180deg, #96e4dd 0%, #5dc4b8 100%);
   font-family: "Elsie", cursive;
-  font-size: 40px;
+  font-size: 26px !important;
   font-weight: 900;
   max-width: 116px;
   margin-right: 60px;

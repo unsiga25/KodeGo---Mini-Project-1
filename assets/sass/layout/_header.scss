@@ -2,10 +2,10 @@
   padding: 10px 0;
   width: 100%;
   position: static;
-  h1.title-logo {
+  .title-logo {
     color: $color-secondary;
     font-family: $TITLE-FONT;
-    font-size: 26px;
+    font-size: 26px !important;
     font-weight: 900;
     max-width: 116px;
     margin-right: 60px;
