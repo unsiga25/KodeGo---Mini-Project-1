@@ -746,7 +746,7 @@ section {
 #footer h1 {
   color: linear-gradient(180deg, #96e4dd 0%, #5dc4b8 100%);
   font-family: "Elsie", cursive;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 900;
   max-width: 116px;
   margin-bottom: 20px;
@@ -759,8 +759,8 @@ section {
   margin-right: 8px;
 }
 
-#footer i:hover {
-  padding: 14px 17px;
+#footer i:nth-child(2) {
+  padding: 10px;
 }
 
 #footer .fa-facebook-f {
@@ -1198,6 +1198,12 @@ section {
   }
 }
 
+@media (min-width: 992px) {
+  #favorite .flickity-page-dots {
+    bottom: 40px;
+  }
+}
+
 #explore .col-6:nth-child(2),
 #explore .col-6:first-child {
   margin-bottom: 48px;
@@ -1612,20 +1618,6 @@ section {
   border-radius: 100px 24px 24px 24px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-@media (min-width: 768px) {
-  #map .img-map {
-    -webkit-transform: scale(1, 0.8);
-            transform: scale(1, 0.8);
-  }
-}
-
-@media (min-width: 992px) {
-  #map .img-map {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
 }
 
 #contact .contact-col {

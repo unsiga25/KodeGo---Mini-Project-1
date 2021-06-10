@@ -282,6 +282,11 @@
       }
     }
   }
+  @media (min-width: 992px) {
+    .flickity-page-dots {
+      bottom: 40px;
+    }
+  }
 }
 #explore {
   .col-6:nth-child(2),
@@ -639,16 +644,6 @@
   .img-map {
     border-radius: 100px 24px 24px 24px;
     object-fit: cover;
-  }
-  @media (min-width: 768px) {
-    .img-map {
-      transform: scale(1, 0.8);
-    }
-  }
-  @media (min-width: 992px) {
-    .img-map {
-      transform: scale(1.2);
-    }
   }
 }
 #contact {

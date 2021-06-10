@@ -2,7 +2,7 @@
   h1 {
     color: $color-secondary;
     font-family: $TITLE-FONT;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 900;
     max-width: 116px;
     margin-bottom: 20px;
@@ -13,8 +13,8 @@
     padding: 10px 13px;
     margin-right: 8px;
   }
-  i:hover {
-    padding: 14px 17px;
+  i:nth-child(2) {
+    padding: 10px;
   }
   .fa-facebook-f {
     background: $color-font-secondary;
