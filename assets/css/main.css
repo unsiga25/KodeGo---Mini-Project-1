@@ -863,9 +863,6 @@ section {
     padding: 16px 19px;
     margin-right: 8px;
   }
-  #footer i:hover {
-    padding: 22px 25px;
-  }
 }
 
 #hero h5,
@@ -1193,8 +1190,8 @@ section {
   #favorite .fav-col:hover .img-fav {
     width: 270px;
     height: 320px;
-    -webkit-transition: 0.5s all ease;
-    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
 }
 
@@ -1679,6 +1676,9 @@ section {
   }
   #articles {
     padding-top: 200px;
+  }
+  .flickity-page-dots {
+    display: none;
   }
 }
 
