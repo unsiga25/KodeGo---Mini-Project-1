@@ -832,7 +832,7 @@ section {
 }
 
 @media (min-width: 768px) {
-  #footer h1 {
+  #footer h2 {
     font-size: 40px;
   }
   #footer .col {
